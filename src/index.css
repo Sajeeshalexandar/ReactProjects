@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 15px hsla(0, 0%, 50%, 0.473);
+}
+
+.card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 122, 214);
+    text-align: center;
+    padding: 1rem 0;
+
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(188, 188, 188, 0.529);
+
+}
+
+.card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgb(0, 78, 142);
+    padding: 1rem;
+    text-align: center;
+}
+
+#followBtn {
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: rgba(0, 128, 0, 0.584);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    transition: .3s ease;
+    backdrop-filter: blur(5px);
+}
+
+#followBtn:hover {
+    transform: scale(1.01);
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+}
+
+#followBtn:active {
+    opacity: 0.8;
+}
+
+nav {
+    width: 100%;
+    padding: 1rem 4rem;
+    background-color: rgba(0, 0, 0, 0.701);
+    display: flex;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    transition: .3s ease;
+
+}
+
+ul li:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
+.logo {
+    color: rgb(99, 172, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#home {
+    width: 100%;
+    height: 90.5vh;
+    background: linear-gradient(0deg, rgb(255, 207, 215), rgb(255, 168, 183), rgb(255, 105, 130), rgb(255, 78, 108));
+    margin-top: 4.3rem;
+    padding: 2rem 1rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#generateBtn {
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    border: 2px solid skyblue;
+    background-color: skyblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#generateBtn:hover {
+    transform: scale(1.01);
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.student-Container {
+    width: fit-content;
+    height: auto;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.688);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s ease;
+    background: linear-gradient(45deg,white,rgb(217, 217, 217),rgb(176, 176, 176));
+
+}
+
+.student-Container:hover {
+    transform: scale(1.05);
+}
+
+.student-Container h1 {
+    text-align: center;
+    padding: .5rem 2rem;
+    color: rgb(58, 121, 228);
+    text-shadow: 0 0 1px rgb(13, 0, 255);
+    border-bottom: 1px solid black;
+   
+}
+
+.student-Container h3 {
+    color: rgb(112, 112, 165);
+    padding: .3rem;
+}
+
+.student-Container h4 {
+    color: green;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.student-Container .StudentName {
+    margin-top: 1rem;
+}
+
+.student-Container .result {
+    color: red;
+}

@@ -1,0 +1,11 @@
+#head{
+  color: rgb(0, 98, 184);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  padding: 0rem 4rem;
+}

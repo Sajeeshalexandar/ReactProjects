@@ -1,0 +1,66 @@
+.cardStyle {
+    width: 300px;
+    min-height: 450px;
+    height: auto;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2rem .5rem;
+
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.182);
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease;
+
+}
+
+.cardStyle .imageStyle {
+    width: 250px;
+    height: 200px;
+    border-radius: .5rem;
+    object-fit: cover;
+    filter: blur(4px) grayscale();
+    transition: .3s ease;
+    border: 2px solid white;
+
+}
+
+.cardStyle .headStyle {
+    padding: .4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 55, 104);
+     transition: .5s ease;
+}
+
+.cardStyle .para {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    text-align: justify;
+    padding: 0 1rem;
+    color: black;
+    transition: .3s ease;
+
+}
+
+.cardStyle:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.347);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.777);
+
+}
+
+.cardStyle:hover img {
+    transform: scale(1.05);
+    filter: blur() grayscale(0);
+
+}
+
+.cardStyle:hover h2 {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.534),
+                 -2px -2px 5px rgba(0, 0, 0, 0.588);
+}
+.cardStyle:hover p{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 1px black;
+}
