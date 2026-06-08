@@ -1,6 +1,7 @@
 import MenuData from "./MenuData";
 import MenuCategory from "./MenuCategory";
 import ResturantNavbar from "./ResturantNavbar";
+import ResturantFooter from "./ResturantFooter";
 
 
 function ResturantApp(){
@@ -30,7 +31,7 @@ function ResturantApp(){
 
             ))}
             </div>
-            
+            <ResturantFooter/>
         </div>
         </>
     )
