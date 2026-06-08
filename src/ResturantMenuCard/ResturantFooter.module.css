@@ -1,0 +1,50 @@
+.footer{
+    width: 100%;
+    padding: 2rem 0 1rem 0;
+    background-color: rgba(106, 201, 149, 0.447);
+    text-align: center;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    margin-top: 3rem;
+}
+.footer h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 86, 24);
+    padding-bottom: 1rem;
+}
+.footer div{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: .5rem;
+}
+.footer div a{
+    text-decoration: none;
+    color: rgb(63, 61, 61);
+    border-bottom: 2px solid transparent;
+    transition: .3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer div a:hover{
+    border-bottom: 2px solid rgb(255, 86, 24) ;
+    color: white;
+}
+.footer .rights{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+   
+}
+.copyright{
+    color: rgb(67, 67, 67);
+    font-size: small;
+    padding: .3rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.location{
+    padding-top: .3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(81, 81, 81);
+    padding-bottom: .3rem;
+    
+}
