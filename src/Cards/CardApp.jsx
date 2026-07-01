@@ -23,8 +23,8 @@ function CardApp() {
     return (
 
         <>
-        {cardArray.map(item => (
-            <Card tittle = { item.tittle } image = { item.image } description = { item.description } />
+        {cardArray.map((item,index )=> (
+            <Card tittle = { item.tittle } image = { item.image } description = { item.description }  key={index}/>
             ))}
         </>
        

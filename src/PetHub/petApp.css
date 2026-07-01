@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+/* Navbar */
+
+.navbar{
+    position:fixed;
+    top:20px;
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+    max-width:1300px;
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 35px;
+
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,0.2);
+    border-radius:20px;
+
+    z-index:1000;
+
+    box-shadow:
+    0 8px 32px rgba(0,0,0,0.15);
+}
+
+/* Logo */
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+}
+
+.logo h2{
+    color:white;
+    font-size:1.6rem;
+    font-weight:700;
+}
+
+/* Links */
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:1rem;
+    font-weight:500;
+    transition:.3s;
+    position:relative;
+}
+
+.nav-links a::after{
+    content:'';
+    position:absolute;
+    bottom:-6px;
+    left:0;
+
+    width:0%;
+    height:2px;
+
+    background:#ffb703;
+    transition:.3s;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}
+
+.nav-links a:hover{
+    color:#ffb703;
+}
+
+/* Button */
+
+.nav-btn{
+    border:none;
+    outline:none;
+
+    padding:12px 24px;
+    border-radius:50px;
+
+    background:#ffb703;
+    color:#111;
+
+    font-size:.95rem;
+    font-weight:600;
+
+    cursor:pointer;
+    transition:.3s;
+
+    text-decoration: none;
+}
+
+.nav-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(255,183,3,.4);
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+    .navbar{
+        width:95%;
+        padding:0 20px;
+    }
+
+    .nav-links{
+        gap:20px;
+    }
+
+    .logo h2{
+        display:none;
+    }
+
+    .nav-btn{
+        display:none;
+    }
+}
+
+@media(max-width:700px){
+
+    .nav-links{
+        gap:15px;
+    }
+
+    .nav-links a{
+        font-size:.9rem;
+    }
+
+    .logo img{
+        width:45px;
+        height:45px;
+    }
+}
+
+
+
+.navbar{
+    background:#ffffff;
+}
+
+.logo h2,
+.nav-links a{
+    color:#222;
+}
+
+

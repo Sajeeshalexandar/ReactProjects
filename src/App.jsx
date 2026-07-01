@@ -1,25 +1,26 @@
-import Card from './Card.jsx'
-import Hello from './Hello.jsx'
-import Button from './button.jsx'
-import Navbar from './Navbar.jsx'
-import Home from './HomePage.jsx'
-
-import User from './User/User.jsx'
-
-import MainStudent from './StudentDashboard/MainStudent.jsx'
-
-import ListApp from './List/ListApp.jsx'
-
-import CardApp from './Cards/CardApp.jsx'
+import PetApp from "./PetHub/PetApp"
 
 function App() {
   return (
     <>
      {/* <Navbar/> */}
-    <Home/> 
+    {/* <Home/>  */}
     {/* <User/> */}
     {/* <ListApp/> */}
     {/* <CardApp/> */}
+    {/* <StudentApp/> */}
+    {/* <ProductsApp/> */}
+    {/* <ProfileApp/> */}
+    {/* <ResturantApp/> */}
+    {/* <Counter/> */}
+    {/* <StudentProfile/> */}
+    {/* <InputFieldState/> */}
+    {/* <Employee/> */}
+    {/* <Timer/> */}
+    {/* <ChangeTittle/> */}
+    {/* <Dashboard/> */}
+    {/* <Appz/> */}
+    <PetApp/>
       
     </>
   )

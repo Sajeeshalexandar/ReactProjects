@@ -1,3 +1,5 @@
+
+
 function Button(){
     let count = 0;
 
@@ -9,16 +11,15 @@ function Button(){
             console.log(`You have clicked more than three Times`)
         }
     }
-
-
-    const buyNow1 = (e) =>{
+    const buyNow2 = (e) =>{
         e.target.style.backgroundColor = "red"
-        e.target.innerHTML = "Hai"
     }
+
+
     
     return(
         <>
-        <button id="followBtn" style={{marginTop:"1.5rem"}} onClick={(event)=>buyNow1(event)}>Buy Now</button>
+        <button id="followBtn" onClick={(event) => buyNow2(event)}>Buy Now</button>
        
         </>
     );

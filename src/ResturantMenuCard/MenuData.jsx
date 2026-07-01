@@ -55,13 +55,13 @@ const MenuData = [
                 id : 301,
                 name : "Gulab Jamun",
                 image : "https://images.openai.com/static-rsc-4/dpb2ha5dMJaOWg8_NK7InLPF4SQf85HdKeIlplTbAlFW9CM_uy1wLP4GJuaO9j_eqdAdxPpZM8QZ0MSdFD938CZo4muMvwpTKQ_UpoF2E8Pv4Uaowuwc3K65CBtNvzuyppWamdS13-h_mqCfYaKF8PBYb-XhWAazXnsSVLKjweFw9ABxeuEjDhkIMECTkbZ4?purpose=fullsize",
-                price : 79
+                price : 20
             },
             {
                 id : 302,
                 name : "Brownie",
                 image : "https://images.openai.com/static-rsc-4/x7ApwnOixFll_gFbHYqDX77eHxdecwz-YIVwOlQV7gMO0yUo3HwxrMnn94fAnlIqgJQPtcgzesmzFGvWVmrs-Z1A8de6L-6D-7JXVU3IujbLkVuJrQ4_W2xU_XkT1XOTTWtQrO0ssrmBbnEWnMpQ0Rhhp4nRwW9qnkR9AiP7iQinylpOyyIXWUxFicb1dGAa?purpose=fullsize",
-                price : 80
+                price : 50
             },
             {
                 id : 303,
